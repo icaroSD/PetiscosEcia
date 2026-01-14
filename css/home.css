@@ -73,10 +73,16 @@ main{
     border:2px solid black;
     border-radius: 0 0 10px 10px;
     background-color:green;
-    color: white;
-    font-weight: bold;
+    
     cursor: pointer;
     height: 30px;
+}
+
+.card-box button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 .card-image{
    width: 100%;
