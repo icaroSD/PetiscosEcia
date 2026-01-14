@@ -111,8 +111,16 @@ main{
     }
 }
 
-@media (max-width:1038px) {
-    .container{
-        
+@media (max-width:567px) {
+    .redes{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+        width: 100%
+    }
+    .bi-instagram,.bi-whatsapp{
+        width: 250px;
     }
 }
