@@ -48,11 +48,17 @@ header{
 /*final header*/
 main{
     margin-top: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .container{
     display: flex;
     justify-content: space-around;
+    width: 90%;
+    flex-wrap: wrap;
+    gap: 10px;
+
 }
 .card-box{
     width: 250px;
@@ -107,7 +113,6 @@ main{
 
 @media (max-width:1038px) {
     .container{
-        flex-wrap: wrap;
-        gap: 10px;
+        
     }
 }
