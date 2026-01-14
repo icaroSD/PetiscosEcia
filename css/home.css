@@ -104,3 +104,10 @@ main{
         display: none;
     }
 }
+
+@media (max-width:1038px) {
+    .container{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
